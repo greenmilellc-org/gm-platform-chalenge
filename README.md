@@ -60,3 +60,17 @@ jvm_memory_max_bytes{app_version="0.0.1-SNAPSHOT",application="gm-platform-chale
 .
 .
 ```
+## Chalenge
+
+* Fork the project to your personal account.
+* Define and develop a CI / CD pipeline for that application.
+* The final artifact in the BUILD process must be a docker image.
+* The application must be deployed to the cloud provider of your choice (ex: AWS / AZURE / GCP)
+* Add monitoring for the application, the tool is of your choice.
+* Diagram the entire architecture developed, from the CI / CD stage to the necessary infrastructure for its provisioning.
+
+### Extras
+
+* The definition of the entire infrastructure must be done using Terraform
+* Use Ansible to configure what you think is necessary for your use.
+* In addition to CI / CD, add the Continuous Deployment step
