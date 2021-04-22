@@ -1,1 +1,1 @@
-rootProject.name = "gm-platform-chalenge"
+rootProject.name = "gm-platform-challenge"
