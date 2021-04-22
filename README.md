@@ -1,4 +1,4 @@
-# gm-platform-chalenge
+# gm-platform-challenge
 
 > Technical Challenge Support Application
 
@@ -15,7 +15,7 @@
 ## Run
 
 ```sh
-java -jar /build/libs/gm-platform-chalenge-0.0.1-SNAPSHOT.jar
+java -jar /build/libs/gm-platform-challenge-0.0.1-SNAPSHOT.jar
 ```
 
 ## Endpoints
@@ -28,8 +28,8 @@ java -jar /build/libs/gm-platform-chalenge-0.0.1-SNAPSHOT.jar
 {
   "build": {
     "version": "0.0.1-SNAPSHOT",
-    "artifact": "gm-platform-chalenge",
-    "name": "gm-platform-chalenge",
+    "artifact": "gm-platform-challenge",
+    "name": "gm-platform-challenge",
     "group": "com.greenmile",
     "time": "2021-02-25T23:45:57.156Z"
   }
@@ -49,13 +49,13 @@ java -jar /build/libs/gm-platform-chalenge-0.0.1-SNAPSHOT.jar
 ```text
 # HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine
 # TYPE jvm_classes_loaded_classes gauge
-jvm_classes_loaded_classes{app_version="0.0.1-SNAPSHOT",application="gm-platform-chalenge",} 8260.0
+jvm_classes_loaded_classes{app_version="0.0.1-SNAPSHOT",application="gm-platform-challenge",} 8260.0
 # HELP process_files_max_files The maximum file descriptor count
 # TYPE process_files_max_files gauge
-process_files_max_files{app_version="0.0.1-SNAPSHOT",application="gm-platform-chalenge",} 10240.0
+process_files_max_files{app_version="0.0.1-SNAPSHOT",application="gm-platform-challenge",} 10240.0
 # HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management
 # TYPE jvm_memory_max_bytes gauge
-jvm_memory_max_bytes{app_version="0.0.1-SNAPSHOT",application="gm-platform-chalenge",area="heap",id="PS Survivor Space",} 1.572864E7
+jvm_memory_max_bytes{app_version="0.0.1-SNAPSHOT",application="gm-platform-challenge",area="heap",id="PS Survivor Space",} 1.572864E7
 .
 .
 .
